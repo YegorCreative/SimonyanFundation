@@ -3,7 +3,51 @@
 }
 
 body {
-    background-color: red;
     margin: 0;
     padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url('../Assets/fingerprint.png');
+}
+
+.header-with-banner-wrapper {
+    background-image: url("../Assets/homebluetop.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 86vh;
+}
+
+.header-with-banner-wrapper ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 70px 20px 20px 20px;
+}
+
+.header-with-banner-wrapper ul li {
+    list-style: none;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.header-with-banner-wrapper ul li:first-child {
+    padding-left: 0;
+}
+
+.header-with-banner-wrapper ul li:last-child {
+    padding-right: 0;
+}
+
+.header-with-banner-wrapper ul li a {
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.header-with-banner-wrapper ul li a img {
+    width: 200px;
+    height: 90px;
 }
