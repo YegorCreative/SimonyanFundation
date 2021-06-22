@@ -7,6 +7,7 @@ body {
     padding: 0;
     font-family: 'Montserrat', sans-serif;
     background-image: url('../Assets/fingerprint.png');
+    font-weight: 400;
 }
 
 .header-with-banner-wrapper {
@@ -51,3 +52,119 @@ body {
     width: 200px;
     height: 90px;
 }
+
+.home-page-banner-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 20px 0 20px;
+}
+
+.home-page-banner-wrapper img {
+    height: 500px;
+}
+
+.home-page-banner-wrapper .text {
+    padding-right: 20px;
+    color: #fff;
+}
+
+.home-page-banner-wrapper h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 40px;
+    text-align: center;
+    font-family: 400;
+}
+
+.home-page-banner-wrapper h3 {
+    font-weight: 400;
+    margin-top: 0;
+    font-size: 30px;
+    text-align: center;
+    font-family: 400;
+}
+
+.home-page-fist-block {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+    padding-top: 100px;
+}
+
+.home-page-fist-block .title {
+    color: #595959;
+    font-size: 30px;
+    margin: 0;
+    font-weight: 400;
+}
+
+.home-page-fist-block .description {
+    font-size: 50px;
+    margin: 0;
+    font-weight: 400;
+    color: #141414;
+    display: flex;
+    align-items: center;
+}
+
+.home-page-fist-block .description .line {
+    background-color: #707070;
+    height: 3px;
+    width: 300px;
+    position: relative;
+    right: 110px;
+    z-index: -1;
+}
+
+.main-btn {
+    width: 270px;
+    height: 56px;
+    background-image: linear-gradient(to right, #0000FF, #2128BE);
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+}
+
+.home-page-fist-block .main-btn {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.home-pabe-second-block {
+    margin-top: 50px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 1440px;
+    padding: 0 20px;
+    background-image: url("../Assets/armeniamap.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.home-pabe-second-block h6 {
+    color: #595959;
+    font-size: 30px;
+    margin: 0;
+    font-weight: 400;
+}
+
+.home-pabe-second-block h5 {
+    font-size: 50px;
+    margin: 0;
+    font-weight: 400;
+    color: #141414;
+    display: flex;
+    align-items: center;
+}
+
