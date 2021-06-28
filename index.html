@@ -25,6 +25,18 @@
 </head>
 
 <body>
+
+    <div id="mySidenav" class="foundation-sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">ABOUT US</a>
+        <a href="#">VOLUNTEERS</a>
+        <a href="#">GALLERY</a>
+        <a href="#">GET INVOLVED</a>
+        <a href="#">DONATION</a>
+        <a href="#">CONTACTS</a>
+    </div>
+
+    
     <div class="header-with-banner-wrapper">
         <ul>
             <li>
@@ -36,7 +48,7 @@
             <li>
                 <a href="#">GALLERY</a>
             </li>
-            <li>
+            <li class="logo">
                 <a href="#"><img src="./Assets/logo.svg" alt="logo" /></a>
             </li>
             <li>
@@ -48,6 +60,7 @@
             <li>
                 <a href="#">CONTACTS</a>
             </li>
+            <span style="font-size:30px;cursor:pointer" class="foundation-sidebar-open" onclick="openNav()">&#9776;</span>
         </ul>
         <div class="home-page-banner-wrapper">
             <div class="text">
