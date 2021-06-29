@@ -46,10 +46,10 @@
         position: absolute;
         right: 20px;
     }
-    .header-with-banner-wrapper ul li {
+    .header li {
         display: none;
     }
-    .header-with-banner-wrapper ul .logo {
+    .header ul .logo {
         display: block;
     }
 }
@@ -61,7 +61,7 @@
     .home-page-banner-wrapper .text {
         padding-right: 0;
     }
-    .header-with-banner-wrapper ul {
+    .header {
         padding: 20px;
     }
     .home-page-fist-block {

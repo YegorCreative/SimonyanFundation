@@ -14,6 +14,12 @@ a {
     cursor: pointer;
 }
 
+.custom-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0px 20px;
+}
+
 .header-with-banner-wrapper {
     background-image: url("../Assets/homebluetop.png");
     background-repeat: no-repeat;
@@ -22,37 +28,36 @@ a {
     height: 86vh;
 }
 
-.header-with-banner-wrapper ul {
+.header {
     margin: 0;
-    padding: 0;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 70px 20px 20px 20px;
 }
 
-.header-with-banner-wrapper ul li {
+.header li {
     list-style: none;
     padding: 0 20px;
     text-align: center;
 }
 
-.header-with-banner-wrapper ul li:first-child {
+.header li:first-child {
     padding-left: 0;
 }
 
-.header-with-banner-wrapper ul li:last-child {
+.header li:last-child {
     padding-right: 0;
 }
 
-.header-with-banner-wrapper ul li a {
+.header li a {
     color: #fff;
     font-weight: 600;
     font-size: 16px;
     text-decoration: none;
 }
 
-.header-with-banner-wrapper ul li a img {
+.header li a img {
     width: 200px;
     height: 90px;
 }
@@ -90,9 +95,6 @@ a {
 }
 
 .home-page-fist-block {
-    max-width: 1440px;
-    margin: 0 auto;
-    padding: 0 20px;
     padding-top: 100px;
 }
 
@@ -141,7 +143,7 @@ a {
     margin-bottom: 50px;
 }
 
-.home-pabe-second-block {
+.home-page-second-block {
     margin-top: 50px;
     position: relative;
     display: flex;
@@ -158,7 +160,7 @@ a {
     padding-bottom: 100px;
 }
 
-.home-pabe-second-block h6, .support-our-program h6 {
+.home-page-second-block h6, .support-our-program h6 {
     color: #595959;
     font-size: 30px;
     margin: 0;
@@ -166,7 +168,7 @@ a {
     text-align: center;
 }
 
-.home-pabe-second-block h5, .support-our-program h5  {
+.home-page-second-block h5, .support-our-program h5  {
     font-size: 50px;
     margin: 0;
     font-weight: 400;
@@ -178,7 +180,7 @@ a {
     justify-content: center;
 }
 
-.home-pabe-second-block h5 .line, .support-our-program h5 .line {
+.home-page-second-block h5 .line, .support-our-program h5 .line {
     background-color: #707070;
     height: 3px;
     width: 250px;
@@ -186,12 +188,12 @@ a {
     z-index: -1;
 }
 
-.home-pabe-second-block h5 .line:last-child, .support-our-program h5 .line:last-child {
+.home-page-second-block h5 .line:last-child, .support-our-program h5 .line:last-child {
     position: absolute;
     right: 50px;
 }
 
-.home-pabe-second-block p {
+.home-page-second-block p {
     max-width: 700px;
     margin: 0 auto;
     padding: 50px 20px;
@@ -390,10 +392,7 @@ a {
 }
 
 .contact-wrapper {
-    max-width: 1440px;
-    margin: 0 auto;
     margin-top: 100px;
-    padding: 0 20px;
     display: flex;
     align-items: flex-end;
     padding-bottom: 100px;
@@ -515,4 +514,72 @@ footer {
     color: #fff;
     font-size: 18px;
     font-weight: 600;
+}
+
+.about-header-with-banner {
+    background-image: url("../Assets/about-header-banner.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 95vh;
+}
+
+.about-page-banner-wrapper .text {
+    color: #141414;
+    padding-right: 0;
+    padding-left: 20px;
+}   
+
+.about-page-banner-wrapper h3 {
+    margin-bottom: 0;
+}
+
+.go-to-post-wrapper {
+    margin-top: 50px;
+}
+
+.go-to-post-wrapper p {
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin: 0;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.go-to-post-wrapper p:nth-child(3) {
+    margin-bottom: 20px;
+}
+
+.go-to-post-wrapper .main-btn {
+    margin-left: 0;
+    margin-top: 20px;
+}
+
+.about-pastors {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.pastor-item {
+    padding: 20px;
+    text-align: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.pastor-item img {
+    width: 250px;
+}
+
+.pastor-item h6 {
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.pastor-item h5 {
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 10px;
 }
