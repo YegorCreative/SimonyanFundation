@@ -583,3 +583,49 @@ footer {
     font-weight: 400;
     margin-top: 10px;
 }
+
+.established-text {
+    text-align: center;
+    color: #0000FF;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bold;
+    margin: 0;
+}
+
+.mission-item {
+    border-bottom: 3px solid #707070;
+    display: flex;
+    font-family: 'Montserrat Alternates', sans-serif;
+    padding: 20px 0;
+}
+
+.mission-item h5 {
+    margin: 0;
+    font-size: 20px;
+    color: #0000FF;
+    margin-right: 30px;
+    max-width: 140px;
+    width: 100%;
+}
+
+.mission-item p {
+    margin: 0;
+}
+
+.mission-item:nth-child(3) {
+    border-style: none;
+    padding-bottom: 0;
+}
+
+.mission-info {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mission-info iframe {
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
