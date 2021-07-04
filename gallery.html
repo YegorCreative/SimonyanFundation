@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Simonyan Fundation</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Simonyan Fundation">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="keywords" content="Simonyan Fundation">
+    <meta name="descript" content="YegorCreative">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="CSS/responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/png" href="./Assets/Faviconblue.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+    <div id="mySidenav" class="foundation-sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">HOME</a>
+        <a href="about.html">ABOUT US</a>
+        <a href="#">VOLUNTEERS</a>
+        <a href="gallery.html">GALLERY</a>
+        <a href="#">GET INVOLVED</a>
+        <a href="#">DONATION</a>
+        <a href="#">CONTACTS</a>
+    </div>
+
+    <div class="gallery-header-with-banner">
+        <ul class="header">
+            <li>
+                <a href="about.html">ABOUT US</a>
+            </li>
+            <li>
+                <a href="#">VOLUNTEERS</a>
+            </li>
+            <li>
+                <a href="gallery.html">GALLERY</a>
+            </li>
+            <li class="logo">
+                <a href="index.html"><img src="./Assets/logo.svg" alt="logo" /></a>
+            </li>
+            <li>
+                <a href="#">GET INVOLVED</a>
+            </li>
+            <li>
+                <a href="#">DONATION</a>
+            </li>
+            <li>
+                <a href="#">CONTACTS</a>
+            </li>
+            <div style="font-size:30px;cursor:pointer;color:#fff" class="foundation-sidebar-open" onclick="openNav()">
+                &#9776;</div>
+        </ul>
+        <div class="galler-banner-text">
+            <h2>VIDEO GALLERY</h2>
+            <h2>ABOUT OUT TOURS</h2>
+        </div>
+    </div>
+    <div class="home-page-second-block" style="background-image: none; padding-bottom: 0;">
+        <h5>
+            <div class="line"></div>OUR TEAM IN ARTSAKH<div class="line"></div>
+        </h5>
+        <p class="read-more-text">Our team was in Artsakh on September 27th. Early in the morning we woke up from the
+            sounds of bombs. At first, we thought that it would stop shortly, but the shelling continued. They were
+            hitting randomly in the direction of Stepanakert and Shushi. Men, immediately started relocating their
+            families in the underground shelters, and then headed off to the frontline.<span id="dots">...</span><span
+                id="more">Our team was in
+                Artsakh on September 27th. Early in the morning we woke up from the sounds of bombs. At first, we
+                thought that it would stop shortly, but the shelling continued. They were hitting randomly in the
+                direction of Stepanakert and Shushi. Men, immediately started relocating their families in the
+                underground shelters, and then headed off to the frontline.</span></p>
+        <div class="read-more-wrapper">
+        </div>
+        <button onclick="readMoreFunction()" id="readMoreText" class="main-btn">READ MORE</button>
+
+        <div class="photos-wrapper">
+            <img src="Assets/team-artsakh.png" alt="image" />
+            <img src="Assets/team-artsakh.png" alt="image" />
+            <img src="Assets/team-artsakh.png" alt="image" />
+            <img src="Assets/team-artsakh.png" alt="image" />
+            <img src="Assets/team-artsakh.png" alt="image" />
+            <img src="Assets/team-artsakh.png" alt="image" />
+        </div>
+        <div class="photos-wrapper">
+            <img src="Assets/team-artsakh.png" alt="image" />
+            <img src="Assets/team-artsakh.png" alt="image" />
+            <img src="Assets/team-artsakh.png" alt="image" />
+            <img src="Assets/team-artsakh.png" alt="image" />
+            <img src="Assets/team-artsakh.png" alt="image" />
+            <img src="Assets/team-artsakh.png" alt="image" />
+        </div>
+        <h5 style="margin-top: 100px;">
+            <div class="line"></div>PHOTO GALLERY<div class="line"></div>
+        </h5>
+        <div class="list">
+            <div class="list-element">
+                <img src="./Assets/photo-gallery.png" />
+                <img src="./Assets/photo-gallery.png" />
+                <img src="./Assets/photo-gallery.png" />
+                <img src="./Assets/photo-gallery.png" />
+            </div>
+            <div class="list-element">
+                <img src="./Assets/photo-gallery.png" />
+                <img src="./Assets/photo-gallery.png" />
+                <img src="./Assets/photo-gallery.png" />
+                <img src="./Assets/photo-gallery.png" />
+            </div>
+            <div class="list-element">
+                <img src="./Assets/photo-gallery.png" />
+                <img src="./Assets/photo-gallery.png" />
+                <img src="./Assets/photo-gallery.png" />
+                <img src="./Assets/photo-gallery.png" />
+            </div>
+        </div>
+        <div id="hiddenLoadMore" class="read-more-wrapper">
+        </div>
+        <button class="main-btn" id="loadmore">Load More...</button>
+    </div>
+    <div class="custom-container contact-wrapper">
+        <form class="left-content">
+            <div class="title">CONTACT US</div>
+            <div class="input-wrapper">
+                <input placeholder="Name Surname" />
+                <input placeholder="Email" />
+            </div>
+            <textarea placeholder="Message"></textarea>
+            <div class="submit-button">
+                <a class="main-btn" href="#">Submit</a>
+            </div>
+        </form>
+        <div class="right-content">
+            <div class="info-item">
+                <img src="Assets/call.svg" alt="call" />
+                <a href="tel:+37495221294">+374 95-221-294</a>
+            </div>
+            <div class="info-item">
+                <img src="Assets/message.svg" alt="message" />
+                <a href="mailto: info@simonyanfoundation.com">info@simonyanfoundation.com</a>
+            </div>
+            <div class="info-item">
+                <img src="Assets/info.svg" alt="info" />
+                <span>Everyday: 9am-8pm (GMT+4)</span>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-item">
+            <p>© 2021 Simonyan Foundation. All Rights Reserved.</p>
+            <p>(374) 95-221294</p>
+            <p>Privacy Statement and Conditions of Use</p>
+            <p>Disclosure Statement</p>
+            <h5>Artur Simonyan Foundation, Inc. is a registered 501(c)(3) nonproﬁt organization.</h5>
+            <p>Simonyan Foundation and Simonyan Foundation International are Registered Trademarks of</p>
+            <p>Artur Simonyan Foundation.</p>
+        </div>
+    </footer>
+
+
+    <script>
+        function readMoreFunction() {
+            var dots = document.getElementById("dots");
+            var moreText = document.getElementById("more");
+            var btnText = document.getElementById("readMoreText");
+            var shadowDiv = document.getElementsByClassName("read-more-wrapper")[0];
+
+            if (dots.style.display === "none") {
+                dots.style.display = "inline";
+                btnText.innerHTML = "Read more";
+                moreText.style.display = "none";
+                shadowDiv.style.display = "block";
+            } else {
+                dots.style.display = "none";
+                btnText.innerHTML = "Read less";
+                moreText.style.display = "inline";
+                shadowDiv.style.display = "none";
+            }
+        }
+    </script>
+
+    <script>
+        const loadmore = document.querySelector('#loadmore');
+        let currentItems = 1;
+        loadmore.addEventListener('click', (e) => {
+            var hiddenLoad = document.getElementById("hiddenLoadMore");
+            const elementList = [...document.querySelectorAll('.list .list-element')];
+            for (let i = currentItems; i < currentItems + 1; i++) {
+                if (elementList[i]) {
+                    elementList[i].style.display = 'flex';
+                }
+            }
+            currentItems += 1;
+
+            // Load more button will be hidden after list fully loaded
+            if (currentItems >= elementList.length) {
+                event.target.style.display = 'none';
+                hiddenLoad.style.display = "none";
+            }
+        })
+    </script>
+</body>
+
+</html>

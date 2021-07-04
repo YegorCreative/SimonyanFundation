@@ -57,6 +57,9 @@
     .about-header-with-banner {
         height: 80vh;
     }
+    .gallery-header-with-banner {
+        height: 69vh;
+    }
 }
 
 @media screen and (max-width: 991px) {
@@ -84,6 +87,9 @@
     .about-page-banner-wrapper .text {
         padding-left: 0;
         color: #fff;
+    }
+    .gallery-header-with-banner {
+        height: 65vh;
     }
 }
 
@@ -189,6 +195,12 @@
     }
     .mission-info iframe {
         width: 100%;
+    }
+    .gallery-header-with-banner {
+        height: 42vh;
+    }
+    .photos-wrapper img, .list-element img {
+        width: 50%;
     }
 }
 

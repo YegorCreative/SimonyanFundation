@@ -136,6 +136,8 @@ a {
     align-items: center;
     justify-content: center;
     border-radius: 100px;
+    border-style: none;
+    cursor: pointer;
 }
 
 .home-page-fist-block .main-btn {
@@ -628,4 +630,74 @@ footer {
 .mission-info iframe {
     border-radius: 10px;
     margin-bottom: 50px;
+}
+
+.gallery-header-with-banner {
+    background-image: url("../Assets/gallery-banner.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 95vh;
+}
+
+.galler-banner-text {
+    text-align: center;
+    padding: 50px 20px 0 20px;
+}
+
+.galler-banner-text h2 {
+    margin: 0;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 400;
+    color: #fff;
+}
+
+.home-page-second-block .read-more-text {
+    padding-bottom: 0;
+}
+
+.read-more-wrapper {
+    box-shadow: 0 6px 50px 60px #EAEAEA;
+    width: 100%;
+}
+
+#more {
+    display: none;
+}
+
+#readMoreText {
+    margin-top: 20px;
+}
+
+.photos-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+
+.photos-wrapper img {
+    width: 33.3333%;
+    padding: 5px;
+}
+
+.photos-wrapper + .photos-wrapper {
+    border-top: 3px solid #707070;
+    margin-top: 30px;
+}
+
+.list {
+    margin: 30px 0;
+}
+.list-element {
+    width: 100%;
+    display: none;
+    flex-wrap: wrap;
+}
+.list-element img {
+    width: 25%;
+    padding: 5px;
+}
+.list .list-element:nth-child(1) {
+    display: flex;
 }
