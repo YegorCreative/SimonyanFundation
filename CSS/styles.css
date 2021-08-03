@@ -772,3 +772,11 @@ footer {
 .horizontal-image {
     height: 350px;
 }
+
+.contact-header-with-banner {
+    background-image: url("../Assets/contact-banner.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 40vh;
+}
