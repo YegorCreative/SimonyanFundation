@@ -60,6 +60,18 @@
     .gallery-header-with-banner {
         height: 69vh;
     }
+    .vallounteers-header-with-banner {
+        height: 73vh;
+    }
+    .vallounters-gallery-image {
+        height: 500px;
+    }
+    .horizontal-image {
+        height: 250px;
+    }
+    .image-with-desc-wrapper {
+        width: 33.333%;
+    }
 }
 
 @media screen and (max-width: 991px) {
@@ -91,6 +103,15 @@
     .gallery-header-with-banner {
         height: 65vh;
     }
+    .vallounters-gallery-image {
+        height: 300px;
+    }
+    .horizontal-image {
+        height: 150px;
+    }
+    .vertical-image {
+        width: 250px;
+    }
 }
 
 @media screen and (max-width: 820px) {
@@ -118,6 +139,9 @@
     .contact-wrapper .left-content {
         width: 70%;
     }
+    .vallounteers-header-with-banner {
+        height: 55vh;
+    }
 }
 
 @media screen and (max-width: 800px) {
@@ -132,6 +156,9 @@
     }
     .slider-container .slider-left {
         right: 72%;
+    }
+    .image-with-desc-wrapper {
+        width: 50%;
     }
 }
 
@@ -202,6 +229,19 @@
     .photos-wrapper img, .list-element img {
         width: 50%;
     }
+    .vallounteers-header-with-banner {
+        height: 41vh;
+        margin-bottom: 150px;
+    }
+    .vertical-image {
+        width: 200px;
+    }
+    .vallounters-gallery-image {
+        height: 250px;
+    }
+    .horizontal-image {
+        height: 125px;
+    }
 }
 
 @media screen and (max-width: 450px) {
@@ -210,6 +250,21 @@
     }
     .white-btn {
         font-size: 12px;
+    }
+    .image-with-desc-wrapper {
+        width: 100%;
+    }
+    .vallounteers-header-with-banner .galler-banner-text h2 {
+        font-size: 30px;
+    }
+    .vallounters-gallery-image {
+        height: 200px;
+    }
+    .horizontal-image {
+        height: 100px;
+    }
+    .vertical-image {
+        width: 100%;
     }
 }
 

@@ -701,3 +701,74 @@ footer {
 .list .list-element:nth-child(1) {
     display: flex;
 }
+
+.vallounteers-header-with-banner {
+    background-image: url("../Assets/valounteers-banner.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.vallounters-pictures-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+
+.image-with-desc-wrapper {
+    width: 25%;
+    padding: 10px;
+}
+
+.val-desc-item {
+    background-image: linear-gradient(to right, #0000FF, #2128BE);
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.val-desc-item p {
+    margin: 0;
+    color: #fff;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.vallounters-pictures-wrapper .image-with-desc-wrapper:nth-child(odd) .val-desc-item {
+    border-radius: 50px 0;
+}
+
+.image-with-desc-wrapper .img-wrapper img {
+    width: 100%;
+}
+
+.vallounters-pictures-wrapper .image-with-desc-wrapper:nth-child(even) .val-desc-item {
+    border-radius: 0 50px;
+}
+
+.vallounters-gallery-image {
+    display: flex;
+    justify-content: center;
+    height: 700px;
+    margin: 0 auto;
+}
+
+.vallounters-gallery-image img {
+    padding: 10px;
+    object-fit: cover;
+}
+
+.val-gal-two-photo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.vertical-image {
+    width: 500px;
+    height: 100%;
+}
+
+.horizontal-image {
+    height: 350px;
+}
