@@ -780,3 +780,96 @@ footer {
     background-size: cover;
     height: 40vh;
 }
+
+.donation-header-with-banner {
+    background-image: url("../Assets/donation-banner.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 83vh;
+}
+
+.donation-page-banner-wrapper .text {
+    color: #141414;
+    padding-right: 200px;
+    padding-top: 50px;
+}   
+
+.donation-page-banner-wrapper .text span {
+    color: #0000FF;
+}
+
+.donation-page-banner-wrapper .text p {
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin: 0;
+    font-weight: 600;
+    font-size: 16px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.payment-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.online-payment-system {
+    display: flex;
+    max-width: 650px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.online-payment-item {
+    border: 3px solid #707070;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 20px 50px 20px 20px;
+}
+
+.online-payment-item span {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.online-payment-item img {
+    width: 200px;
+}
+
+.cart-payment-item {
+    max-width: 650px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.cart-payment-item img {
+    width: 270px;
+}
+
+.getinvolved-header-with-banner {
+    background-image: url("../Assets/getinvolved-banner.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 85vh;
+}
+
+.getinvolved-page-banner-wrapper h2, .getinvolved-page-banner-wrapper h3 {
+    color: #141414;
+    margin: 0;
+}
+
+.getinvolved-page-banner-wrapper .text {
+    padding-right: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 100px;
+}
